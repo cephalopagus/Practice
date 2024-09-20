@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="262dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/mainlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/robotomedium"
+        android:paddingHorizontal="47dp"
+        android:text="All the best Mentors, all in one place."
+        android:textAlignment="center"
+        android:textSize="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"></TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/robotomedium"
+        android:paddingHorizontal="60dp"
+        android:text="Mentors on Prener will help you achieve your most ambititous goals. Come on, let’s smash them together!"
+        android:textAlignment="center"
+        android:textColor="@color/grayOnWhite"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></TextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/robotomedium"
+        android:paddingHorizontal="69dp"
+        android:paddingVertical="15dp"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"></com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="10dp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        app:strokeWidth="1dp"
+        app:strokeColor="#96A7AF"
+        android:backgroundTint="@color/white"
+        android:textSize="18dp"
+        android:fontFamily="@font/robotomedium"
+        android:paddingVertical="15dp"
+        android:text="Log in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialButton" />
+
+    <TextView
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/robotoregular"
+        android:textSize="14dp"
+        android:textColor="@color/grayOnWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join over 100,000 users smashing their goals!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
